@@ -1,6 +1,6 @@
 # 500 km Sun-Synchronous CubeSat Orbit: Mission Analysis in GMAT
 
-![Ground track](C:\Users\saini\Downloads\projects\leo-cubesat-mission-gmat\images\ground_track.png.png)
+![Ground track](images\ground_track.png.png)
 
 ## Objective
 Design and analyse a low Earth orbit for a 3U CubeSat (4 kg) in NASA's GMAT.
@@ -33,8 +33,7 @@ Orbital lifetime from 120 km re-entry:
 
 ![RAAN and SMA](results/orbit_check.png)
 
-[Write 2 or 3 sentences: what the numbers mean, for example why the
-orbit is sun-synchronous and how altitude changes lifetime.]
+The orbit is sun-synchronous because Earth's equatorial bulge slowly turns the orbit plane at [X] deg/day in the simulation. This matches the Earth's motion around the Sun (about 0.985 deg/day), so the satellite crosses each latitude at the same local solar time every day and gets steady lighting, which is useful for imaging. Atmospheric drag slowly lowers the orbit, and since the air thins out quickly with height, a satellite at 400 km re-enters much sooner than one at 600 km. Strong solar activity heats and expands the upper atmosphere, which increases drag and shortens the lifetime further, so lifetime is best given as a range.
 
 ## How to reproduce
 1. Open `gmat/flagship_500km.script` in GMAT and press Run
