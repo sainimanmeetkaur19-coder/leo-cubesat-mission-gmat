@@ -1,6 +1,6 @@
 # 500 km Sun-Synchronous CubeSat Orbit: Mission Analysis in GMAT
 
-![Ground track](images/ground_track.png)
+![Ground track](C:\Users\saini\Downloads\projects\leo-cubesat-mission-gmat\images\ground_track.png.png)
 
 ## Objective
 Design and analyse a low Earth orbit for a 3U CubeSat (4 kg) in NASA's GMAT.
